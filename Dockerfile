@@ -1,4 +1,5 @@
-FROM rhub/r-minimal
+# target: r-minimal:latest
+FROM rhub/r-minimal:4.6.1@sha256:535bbac3b8b008f9e216580a2ae92fa8725f10b08888a452062f05b1c5b706e6
 
 RUN apk --update add jq
 
